@@ -1,24 +1,11 @@
 ## Imagem e Código PIX
 
-<div style="display: flex; flex-direction: column; align-items: center; font-family: Arial, sans-serif;">
-    <div class="image-container">
-        <img src="https://raw.githubusercontent.com/GilmarSistema/pagina-simples-de-cupom-fiscal/main/v1/v1.png" alt="Imagem" width="300">
-    </div>
-    <div class="pix-code">
-        Seu código PIX: 1234
-        <span class="copy-button" onclick="copyToClipboard()">Copiar</span>
-    </div>
-</div>
+![Imagem](https://raw.githubusercontent.com/GilmarSistema/pagina-simples-de-cupom-fiscal/main/v1/v1.png)
 
-<script>
-    function copyToClipboard() {
-        const pixCode = '1234';
-        const textArea = document.createElement('textarea');
-        textArea.value = pixCode;
-        document.body.appendChild(textArea);
-        textArea.select();
-        document.execCommand('copy');
-        document.body.removeChild(textArea);
-        alert('Código copiado para a área de transferência!');
-    }
-</script>
+Para copiar o seu código PIX, siga estas etapas:
+
+1. Seu código PIX: 1234
+2. Selecione o código e copie para a área de transferência (Ctrl+C ou Cmd+C).
+3. Cole o código onde precisar (Ctrl+V ou Cmd+V).
+
+Certifique-se de que o seu código PIX esteja correto antes de copiá-lo.
