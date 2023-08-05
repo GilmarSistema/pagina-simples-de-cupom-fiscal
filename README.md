@@ -4,8 +4,38 @@
 
 Para copiar o seu código PIX, siga estas etapas:
 
-1. Seu código PIX: 1234
-2. Selecione o código e copie para a área de transferência (Ctrl+C ou Cmd+C).
-3. Cole o código onde precisar (Ctrl+V ou Cmd+V).
+1.  **PIX:** 0ee9b6e6-ac75-4c30-88fa-b0b1394047b9
 
-Certifique-se de que o seu código PIX esteja correto antes de copiá-lo.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apoio ao Projeto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .message {
+            margin-bottom: 20px;
+        }
+
+        .contribute-button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="message">
+        <h2>Apoie este Projeto!</h2>
+        <p>Olá amigos! Se você acha este projeto útil e deseja ajudar a mantê-lo ativo, qualquer contribuição é muito bem-vinda. Seja ela de coração ou em forma de um valor, cada gesto é valorizado e contribui para o crescimento deste projeto.</p>
+
+</html>
