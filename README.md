@@ -1,6 +1,4 @@
-# pagina-simples-de-cupom-fiscal V1
-
-#  PIX
+## Imagem e Código PIX
 
 <div style="display: flex; flex-direction: column; align-items: center; font-family: Arial, sans-serif;">
     <div class="image-container">
@@ -24,5 +22,3 @@
         alert('Código copiado para a área de transferência!');
     }
 </script>
-
-
