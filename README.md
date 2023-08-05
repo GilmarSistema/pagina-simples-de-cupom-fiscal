@@ -6,22 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-</head>
-<body>
-    <img src="https://raw.githubusercontent.com/GilmarSistema/pagina-simples-de-cupom-fiscal/main/v1/v1.png" alt="Imagem" width="500">
-</body>
-</html>
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Campo PIX</title>
-    <style>
+   <style>
         .pix-container {
             display: flex;
             align-items: center;
@@ -41,6 +26,12 @@
             cursor: pointer;
         }
     </style>
+</head>
+<body>
+    <img src="https://raw.githubusercontent.com/GilmarSistema/pagina-simples-de-cupom-fiscal/main/v1/v1.png" alt="Imagem" width="500">
+</body>
+
+ 
 </head>
 <body>
     <div class="pix-container">
