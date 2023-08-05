@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emissão de Cupom Fiscal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Emissão de Cupom Fiscal</h1>
+        <form action="emitir_cupom.php" method="post">
+            <label for="nome">Nome do Cliente:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="produto">Produto:</label>
+            <input type="text" id="produto" name="produto" required>
+            
+            <label for="valor">Valor:</label>
+            <input type="text" id="valor" name="valor" required>
+            
+            <button type="submit">Emitir Cupom</button>
+        </form>
+    </div>
+</body>
+</html>
