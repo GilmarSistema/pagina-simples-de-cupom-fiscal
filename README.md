@@ -1,46 +1,44 @@
 # pagina-simples-de-cupom-fiscal V1
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <style>
-        .pix-container {
+    <title>Exibição de Imagem e PIX</title>
+    <style>
+        body {
             display: flex;
+            flex-direction: column;
             align-items: center;
-            gap: 10px;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
             font-family: Arial, sans-serif;
         }
 
+        .image-container {
+            margin-bottom: 20px;
+        }
+
         .pix-code {
-            flex: 1;
-            border: 1px solid #ccc;
-            padding: 8px;
-            border-radius: 4px;
-            background-color: #f9f9f9;
+            font-size: 18px;
         }
 
         .copy-button {
             cursor: pointer;
+            color: blue;
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <img src="https://raw.githubusercontent.com/GilmarSistema/pagina-simples-de-cupom-fiscal/main/v1/v1.png" alt="Imagem" width="500">
-</body>
-
- 
-</head>
-<body>
-    <div class="pix-container">
-        <div class="pix-code">
-            Seu código PIX: 1234
-        </div>
-        <div class="copy-button" onclick="copyToClipboard()">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h6V3a1 1 0 011-1h4a1 1 0 011 1v1h6a2 2 0 012 2v12a2 2 0 01-2 2zm-2-2v-7H7v7h10zm-2-9H7v2h8v-2z"/></svg>
-        </div>
+    <div class="image-container">
+        <img src="https://raw.githubusercontent.com/GilmarSistema/pagina-simples-de-cupom-fiscal/main/v1/v1.png" alt="Imagem" width="300">
+    </div>
+    <div class="pix-code">
+        Seu código PIX: 1234
+        <span class="copy-button" onclick="copyToClipboard()">Copiar</span>
     </div>
 
     <script>
@@ -57,3 +55,4 @@
     </script>
 </body>
 </html>
+
