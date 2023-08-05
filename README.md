@@ -11,3 +11,4 @@ Olá amigos! Se você acha este projeto útil e deseja ajudar a mantê-lo ativo,
 1.  **PIX:** 0ee9b6e6-ac75-4c30-88fa-b0b1394047b9
 
 
+![Sua Imagem de Perfil](https://avatars.githubusercontent.com/u/136496355?v=4)
